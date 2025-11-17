@@ -9,6 +9,8 @@ def barbara():
 def meriem():
   print("Salut")
   
+def rawend():
+  print("salut")
 def ellyne():
     print("hello")
     
