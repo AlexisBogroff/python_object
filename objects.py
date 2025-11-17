@@ -55,3 +55,22 @@ class Animal:
     def viellir(self):
         age=age+1
         print(f"{self.nom} a maintenant {self.age} ans")
+
+class Banque:
+    def __init__(self, titulaire, solde=0):
+        self.titulaire = titulaire
+        self.solde = solde
+
+    def deposer(self, montant):
+        self.solde += montant
+        print(f"Déposé : {montant}. Nouveau solde : {self.solde}")
+
+    def retirer(self, montant):
+        if montant > self.solde:
+            print("Fonds insuffisants.")
+        else:
+            self.solde -= montant
+            print(f"Retiré : {montant}. Nouveau solde : {self.solde}")
+
+    def afficher_solde(self):
+        print(f"Solde actuel de {self.titulaire}: {self.solde}")
