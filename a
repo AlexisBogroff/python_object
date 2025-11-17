@@ -1,5 +1,8 @@
 def corentin ():
   print ("Hello World")
+def carol ():
+  print("oie")
+  
 def nina():
   print("Hello!")
 
