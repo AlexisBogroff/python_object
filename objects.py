@@ -37,3 +37,12 @@ class Animal:
     def viellir(self):
         age=age+1
         print(f"{self.nom} a maintenant {self.age} ans")
+
+class Habits:
+    def__init(self,nom,espece,age):
+    sefl.name = nom
+    self.espece = espece
+    self.couleur = couleur
+    def habiller(self):
+     print(f"(self.name) habiller")
+    
