@@ -11,3 +11,9 @@ class Calculatrice:
     
     def division(x, y):
         return x / y
+
+class fruit:
+    def _init_(self):
+        self.type = pomme
+        self.size = 7
+        self.state = mûre
