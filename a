@@ -1,3 +1,5 @@
+def anis():
+  print("Lets's Gooooooo")
 def sabera():
     print("coucou")
     
