@@ -1,0 +1,15 @@
+class Habitude:
+    def __init__(self, nom):
+        self.nom = nom
+        self.compteur = 0
+
+    def faire(self):
+        self.compteur += 1
+        return f"Bravo ! Tu viens de faire '{self.nom}' ({self.compteur} fois)."
+
+    def reset(self):
+        self.compteur = 0
+        return f"L'habitude '{self.nom}' a été réinitialisée."
+
+    def statut(self):
+        return f"Tu as fait '{self.nom}' {self.compteur} fois."
