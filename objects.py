@@ -11,3 +11,17 @@ class Calculatrice:
     
     def division(x, y):
         return x / y
+
+
+class Animal:
+    def __init(self,nom,espece,age):
+        self.name = nom
+        self.espece = espece
+        self.age = age
+    def mange(self):
+        print(f"(self.name) mange")
+    def presenter(self):
+        print(f"Je suis {self.nom}, un {self.espece} de {self.age} ans")
+    def viellir(self):
+        age=age+1
+        print(f"{self.nom} a maintenant {self.age} ans")
