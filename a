@@ -1,1 +1,2 @@
-
+def meriem():
+  print("Salut")
