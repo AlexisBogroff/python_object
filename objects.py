@@ -19,3 +19,4 @@ class fruit:
         self.state = state
     def manger(self):
       print(f"Je mange une {self.name} {state} de {self.size} cm")
+        
