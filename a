@@ -1,5 +1,8 @@
 def corentin ():
   print ("Hello World")
+def barbara():
+   print("hello")
+
 def meriem():
   print("Salut")
   
@@ -25,7 +28,7 @@ def edgar():
     print("Edgar")
     
 def rachel():
-  print ("coucou")
+  print("coucou")
 
 def alexis():
     print("coucou")
