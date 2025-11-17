@@ -10,3 +10,6 @@ print ("coucou")
 def alexis():
     print("coucou")
 
+def tasnime(): 
+    print("coucou")
+
