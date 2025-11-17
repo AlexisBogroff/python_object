@@ -1,0 +1,2 @@
+def pierre():
+    return "Hello from pierre!"
