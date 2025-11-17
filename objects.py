@@ -11,3 +11,15 @@ class Calculatrice:
     
     def division(x, y):
         return x / y
+
+
+class Taches:
+    def __init__ (self, date)
+    self.nom = nom
+    self.date = date
+
+    def add(self):
+        print(self.nom)
+    def add(self):
+        print(self.date)
+    
