@@ -11,3 +11,12 @@ class Calculatrice:
     
     def division(x, y):
         return x / y
+
+class Recette : 
+    def __init__(self, nom, ingredients, etapes) : 
+    self.nom = nom
+    self.ingredients = ingredients
+    self.etapes = etapes
+    
+    def cuisson(self) :
+        print("Chaleur tournante") 
