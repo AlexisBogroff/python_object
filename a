@@ -1,2 +1,8 @@
 def corentin ():
   print ("Hello World")
+def rachel():
+print ("coucou")
+
+def alexis():
+    print("coucou")
+
