@@ -1,2 +1,9 @@
 def ellyne():
     print("hello")
+    
+def rachel():
+print ("coucou")
+
+def alexis():
+    print("coucou")
+
