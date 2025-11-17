@@ -19,4 +19,3 @@ class Animal:
         self.age = 1
         self.couleur = couleur
         
-    
