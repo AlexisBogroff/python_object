@@ -55,3 +55,29 @@ class Animal:
     def viellir(self):
         age=age+1
         print(f"{self.nom} a maintenant {self.age} ans")
+
+class Voyante():
+
+    def horoscope(signe):
+        if signe == "taureau":
+            print(f"Ta journée va bien se passer")
+        elif signe == "vierge":
+            print("Tu est parfait")
+        elif signe == "scorpion":
+            print("Tu vas gagner bcp d'argent aujourd'hui")
+        elif signe == "gémeaux":
+            print("La chance est de ton côté")
+        elif signe == "sagittaire":
+            print("Attention au verglas")
+
+    def tirer_carte(self):
+        cartes = [
+            "La Chance Suprême",
+            "L’Amour Caché",
+            "Le Karma Rapide",
+            "L’Argent Mystérieux",
+            "La Paresse Absolue",
+            "Le Chaos Imminent"
+        ]
+        print("Ta carte du jour :", random.choice(cartes))
+        
