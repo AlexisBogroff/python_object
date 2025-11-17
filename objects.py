@@ -80,6 +80,7 @@ class Voyante():
             "Le Chaos Imminent"
         ]
         print("Ta carte du jour :", random.choice(cartes))
+        
 class fruit:
     def _init_(self, size, state):
         self.name = pomme
