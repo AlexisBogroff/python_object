@@ -1,3 +1,6 @@
+def flavie():
+  print("coucou")
+  
 def carol ():
   print("oie")
   
