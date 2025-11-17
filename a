@@ -1,19 +1,31 @@
-def hello(name):
-    print(f"Hello {name}")
+def corentin():
+  print("Hello World")
 
+def pierre():
+    return "Hello from blablablouefubuez!"
+
+def omega():
+    print('meow')
+
+def celie():
+  print("yolo")
+  
 def barbara():
    print("hello")
 
 def meriem():
   print("Salut")
   
+def rawend():
+  print("salut")
+
 def ellyne():
     print("hello")
     
 def flavie():
   print("coucou")
   
-def carol ():
+def carol():
   print("oie")
   
 def nina():
@@ -29,11 +41,10 @@ def edgar():
     print("Edgar")
     
 def rachel():
-  print("coucou")
+    print("coucou")
 
 def alexis():
     print("coucou")
 
 def tasnime(): 
     print("coucou")
-
