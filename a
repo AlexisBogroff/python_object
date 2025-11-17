@@ -1,3 +1,5 @@
+def corentin ():
+  print ("Hello World")
 def pierre():
     return "Hello from blablablouefubuez!"
 
