@@ -1,3 +1,6 @@
+def barbara():
+   print("hello")
+
 def meriem():
   print("Salut")
   
