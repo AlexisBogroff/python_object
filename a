@@ -1,5 +1,9 @@
+def sabera():
+    print("coucou")
+    
 def edgar():
     print("Edgar")
+    
 def rachel():
 print ("coucou")
 
