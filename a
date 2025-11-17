@@ -1,2 +1,5 @@
 def rachel():
 print ("coucou")
+
+def alexis():
+    print("coucou")
