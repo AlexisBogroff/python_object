@@ -15,11 +15,15 @@ class Calculatrice:
 
 class Chaussure:
 
-    def _init_(self):
+    def _init_(self, nom):
         self.brand = Adidas
-        self.gender = Women
+        self.gender = Femme
         self.model = Sambas
         self.color = marron
         self.size = 39 
+        self.name = Sabera
+    
+    def appartenance(self):
+        print(f"Je cherche des {self.brand} {self.model} en {self.color} pour {self.gender}, je fais du {self.size}.")
 
     
