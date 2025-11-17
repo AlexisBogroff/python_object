@@ -13,7 +13,9 @@ class Calculatrice:
         return x / y
 
 class fruit:
-    def _init_(self):
-        self.type = pomme
-        self.size = 7
-        self.state = mûre
+    def _init_(self, size, state):
+        self.name = pomme
+        self.size = size
+        self.state = state
+    def manger(self):
+      print(f"Je mange une {self.name} {state} de {self.size} cm")
