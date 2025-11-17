@@ -100,3 +100,18 @@ class Geometrie:
     def triangle(base, hauteur):
         return (base * hauteur) / 2
         
+
+class Chaussure:
+
+    def _init_(self, nom):
+        self.brand = Adidas
+        self.gender = Femme
+        self.model = Sambas
+        self.color = marron
+        self.size = 39 
+        self.name = Sabera
+    
+    def appartenance(self):
+        print(f"Je cherche des {self.brand} {self.model} en {self.color} pour {self.gender}, je fais du {self.size}.")
+
+    
