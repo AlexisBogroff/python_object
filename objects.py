@@ -11,3 +11,12 @@ class Calculatrice:
     
     def division(x, y):
         return x / y
+
+class Animal: 
+    def __init__(self, nom):
+        self.nom = nom
+        self.espece = espece
+        self.age = 1
+        self.couleur = couleur
+        
+    
