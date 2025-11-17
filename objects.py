@@ -11,3 +11,14 @@ class Calculatrice:
     
     def division(x, y):
         return x / y
+    
+class Geometrie:
+
+    def carre(cote):
+        return 4 * cote
+
+    def rectangle(longueur, largeur):
+        return 2 * (longueur + largeur)
+
+    def triangle(base, hauteur):
+        return (base * hauteur) / 2
