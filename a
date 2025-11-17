@@ -5,7 +5,7 @@ def edgar():
     print("Edgar")
     
 def rachel():
-print("coucou")
+    print("coucou")
 
 def alexis():
     print("coucou")
