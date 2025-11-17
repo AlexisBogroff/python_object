@@ -1,3 +1,5 @@
+def omega():
+    print('meow')
 def barbara():
    print("hello")
 
