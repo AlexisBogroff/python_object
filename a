@@ -1,5 +1,9 @@
+def meriem():
+  print("Salut")
+  
 def ellyne():
     print("hello")
+    
 def flavie():
   print("coucou")
   
