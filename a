@@ -1,2 +1,3 @@
-def salutation(prenom)
+def nina():
+  print("Hello!")
 
