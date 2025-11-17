@@ -1,8 +1,41 @@
+def pierre():
+    return "Hello from blablablouefubuez!"
+
+def omega():
+    print('meow')
+def barbara():
+   print("hello")
+
+def meriem():
+  print("Salut")
+  
+def ellyne():
+    print("hello")
+    
+def flavie():
+  print("coucou")
+  
+def carol ():
+  print("oie")
+  
+def nina():
+  print("Hello!")
+
+def anis():
+  print("Lets's Gooooooo")
+
+def sabera():
+    print("coucou")
+    
 def edgar():
     print("Edgar")
+    
 def rachel():
-print ("coucou")
+  print("coucou")
 
 def alexis():
+    print("coucou")
+
+def tasnime(): 
     print("coucou")
 
