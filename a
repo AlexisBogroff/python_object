@@ -3,6 +3,9 @@ def pierre():
 
 def omega():
     print('meow')
+def celie():
+  print("yolo")
+  
 def barbara():
    print("hello")
 
