@@ -1,5 +1,7 @@
 def rawend():
   print("salut")
+def edgar():
+    print("Edgar")
 def rachel():
 print ("coucou")
 
