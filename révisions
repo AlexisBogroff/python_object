@@ -1,0 +1,32 @@
+# créer une fonction qui filtre les personnes à l'entrée d'une boite de nuit
+def filtrage_boite():
+user_age = int(input("Quel est votre âge?"))
+if user_age >= 18:
+print("Vous pouvez rentrer")
+else:
+print ("Revenez quand vous serez majeur(e)")
+
+filtrage_boite()
+
+
+# catch exceptions / errors
+def filtrage_boite():
+  for trials in range(3):
+      try:
+       user_age = int(input("Quel est votre âge?"))
+       break
+      except:
+          print("Try again")
+          
+    if user_age >= 18:
+        print("Vous pouvez rentrer")
+    else:
+        print ("Revenez quand vous serez majeur(e)")
+filtrage_boite()
+
+
+# il faut que chaque caractère soit sur une ligne
+
+x = 'abcdefghij'
+for letter in x:
+    print(letter)
