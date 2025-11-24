@@ -13,3 +13,9 @@ for i in x:
 ###exo 3
 age = 18
 print (f"Vous avez {age} ans !")
+
+###exo 4
+tortue = "Une tortue"
+saute = "saute sur"
+chat = "un chat"
+print (f"{tortue} {saute} {chat}")
