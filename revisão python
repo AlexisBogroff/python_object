@@ -140,4 +140,38 @@ print (l[4])
 
 =====
 
-# EXERCICIO 11
+# EXERCICIO 11: créer une fonction qui renvoi une chaine de caracteres a partir 
+# d'une liste qui contient des caracteres l = ["coucou", "je", "suis", "une", "tortoue"]
+
+# output = "coucou je suis une tortue"
+
+l = ["coucou", "je", "suis", "une", "tortoue"]
+def renvoyer_chaine(l):
+  return " ". join (l)
+x = renvoyer_chaine(l)
+print(x)
+
+=====
+
+# EXERCICIO 12: usine de t-shirts, on produit 3 tailles, 'S', 'M', 'L'
+# Créer une fonction qui permet à partir d'une liste de t-shirts produits
+# e.g. ['S', 'S', 'M', 'S', 'L', 'S', 'M']
+# Renvoyer pour chaque taille de t-shirt, le nombre de t-shirts produits
+# {'S': 2000, 'M: 5000, 'L': 2000}
+
+
+def count_production (l):
+  sizes = {'S':0, 'M':0, 'L':0}
+  for size in sizes:
+    repeats = 0
+    for val in l:
+      if val == size:
+        repeats +=1
+      sizes [size] = repeats
+    return sizes
+
+l = ['S', 'S', 'M', 'S', 'L', 'S', 'M']
+print(count_production(l))
+
+
+
