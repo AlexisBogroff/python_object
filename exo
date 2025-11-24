@@ -1,0 +1,7 @@
+def filtrage(age):
+  if age >= 18:
+      print("Entrer")
+  else:
+      print("Refuser")
+
+filtrage(21)
