@@ -25,3 +25,12 @@ print (f"{tortue} {saute} {chat}")
 a = "adrien"
 b = "elyne"
 a, b = a, b
+
+
+###exo 6
+#stocker dans un dico les infos suivantes
+#une personne qui s'apelle marie et qui a 27 ans et mange des pomme
+personne = { "nom" : "Marie", "age" : 27, "aliment_prefere" = "pomme"}
+
+
+
