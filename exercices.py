@@ -73,3 +73,48 @@
 
 # for key, value in enumerate(l):
 #     print(f"{value}{key}")
+
+
+# exercice 9
+# l = [10, 18, 30]
+# for i in l:
+#     if i % 6 == 0:
+#         print(f"{i}")
+
+
+# exercice 10
+# l = ['a1', 'a2', 'b1', 'b2', 'a3']
+# for i in l:
+#     # if i in ['a1', 'a2', 'a3']:
+#     #     print(i)
+#     if i == 'a1' or i == 'a2' or i == 'a3':
+#         print(i)
+
+
+# exercice 11
+# def renvoyer_chaine_caracteres(l):
+#         return " ".join(l)
+
+# x = renvoyer_chaine_caracteres(['coucou', 'je', 'suis', 'une', 'tortue'])
+# print(x)
+
+
+# exercice 12
+# def tshirt_sizes(taille):
+#     count_S = 0
+#     count_M = 0
+#     count_L = 0
+
+#     for i in taille:
+#         if i == 'S':
+#             count_S += 1
+#         elif i == 'M':
+#             count_M += 1
+#         elif i == 'L':
+#             count_L += 1
+
+#     return {'S': count_S, 'M': count_M, 'L': count_L}
+
+# taille = ['S', 'S', 'M', 'S', 'L', 'S', 'M']
+
+# print(tshirt_sizes(taille))
