@@ -1,7 +1,18 @@
+## exercice 1
 def filtrage(age):
-  if age >= 18:
-      print("Entrer")
-  else:
-      print("Refuser")
+  for trials in range(3):
+    try:
+      if age >= 18:
+          print("Entrer")
+          break
+      else:
+          print("Refuser")
+    except:
+      print("Try again")
 
 filtrage(21)
+
+## exercice 2
+x = 'abcdefghij'
+for i in x:
+  print(i)
