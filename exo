@@ -12,7 +12,51 @@ def filtrage(age):
 
 filtrage(21)
 
-## exercice 2
+## exercice 2 : 'abcdef' -> 'a' 'b' 'c' 'd' 'e' 'f'
 x = 'abcdefghij'
 for i in x:
   print(i)
+
+## exercice 3
+age = 18
+print(f'Vous avez {age} ans !')
+
+## exercice 4
+tortue= "Une tortue"
+saute = "saute sur"
+chat = "un chat"
+print(f'{tortue} {saute} {chat}')
+
+## exercice 5 : intervertir deux valeurs
+a = 'adrien'
+b = 'emile'
+c = a
+a= b
+b = c
+print(a)
+print(b)
+
+## exercice 6 : stocker dans un dico  les infos une personne qui s'appelle marie et qui mange des pommes
+dico = {"nom" : "Marie",
+        "age" : 27, 
+        "alimentation" : "pomme"}
+print(dico)
+
+## exercice 7
+txt = "il fait beau"
+liste = txt.split()
+print(liste)
+
+## exercice 8 : ln = ['a1', 'b2', 'c3']
+l = ['a', 'b', 'c']
+n = range(3) ## liste qui contient 0 1 2
+## Option 1
+ln = []
+for i,j in zip(l,n) :
+  ln.append(i+str(j))
+print(ln)
+## Option 2
+ln = []
+for pos in range(len(n)) :
+  ln.append(l[pos] + str(n[pos]))
+print(ln)
