@@ -37,20 +37,107 @@ print(f"vous avez {age} ans")
 ======
 
 # EXERCICIO 4:
-variáveis:
+# variáveis:
+
+# tortue = "une tortue"
+# saute = "saute sur"
+# chat = "un chat"
+
+# output: une tortue saute sur un chat
 
 tortue = "une tortue"
 saute = "saute sur"
 chat = "un chat"
 
-output: une tortue saute sur un chat
-
 print (tortue, saute, chat)
 
 ======
 
-# EXERCICIO 5: 
+# EXERCICIO 5: 2 variaveis a e b que contém um valor (int ou str) e o dado de a deve se encontrar em b inversamente
+# a = "adrien"
+# b = "emile"
 
+# Resultat:
+# b = "adrien"
+# a = "emile"
 
+a = "adrien"
+b = "emile"
 
+temp = a
+a = b
+b = temp
 
+print (a)
+print (b)
+
+======
+
+# EXERCICIO 6: stocker dans un dictionnaire les infos suivantes: une personne qui s'appelle Marie et qui a 27 ans et mange des pommes
+# tem que nomear o dicionário, e usar sempre {} e " 
+personne = {
+    "nom": "Marie", 
+    "age": 27, 
+    "nourriture": "pommes"}
+
+=====
+
+# EXERCICIO 7: 
+# txt = "il fait beau"
+# stocker ces mots dans une liste
+# output: l = ["il", "fait", "beau"]
+
+txt = "il fait beau"
+l = txt.split()
+l
+
+=====
+
+# EXERCICIO 8: l = ["a", "b", "c"] e n = range (3) , como output ln = ["a0", "b1", "c2"]
+
+l = ["a", "b", "c"]
+n = range (3)
+
+ln = []
+
+for letter, number in zip (l,n):
+ln.append (letter + str(number))
+print (ln)
+
+# EXERCICIO 8 SE FOSSEM IDADES: l = ["a", "b", "c"] e n = range (3) , como output ln = ["a0", "b1", "c2"]
+
+l = [10, 18, 30]
+
+for age in l:
+    if age >= 18:
+        print(age)
+
+=====
+
+# EXERCICIO 9: l = [10, 18, 30] 
+#output:
+#18
+#30
+
+l = [10, 18, 30]
+print (l[1])
+print (l[2])
+
+=====
+
+# EXERCICIO 10: l = ["a1","a2","b1","b2","a3"] 
+# output
+# "a1"
+# "a2"
+# "a3"
+
+# ATENÇÃOOOOO SUPER IMPORTANTE! A PRIMEIRA POSIÇÃO É ZEROOOOO, NÃO 1!
+
+l = ["a1", "a2", "b1", "b2", "a3"]
+print (l[0])
+print (l[1])
+print (l[4])
+
+=====
+
+# EXERCICIO 11
