@@ -11,17 +11,18 @@ filtrage_boite()
 
 # catch exceptions / errors
 def filtrage_boite():
-  for trials in range(3):
-      try:
-       user_age = int(input("Quel est votre âge?"))
-       break
-      except:
-          print("Try again")
-          
+    for trials in range(3):
+        try:
+            user_age = int(input("Quel est votre âge?"))
+            break
+        except:
+            print("Try again")
+    
     if user_age >= 18:
         print("Vous pouvez rentrer")
     else:
-        print ("Revenez quand vous serez majeur(e)")
+        print("Revenez quand vous serez majeur(e)")
+
 filtrage_boite()
 
 
@@ -30,3 +31,47 @@ filtrage_boite()
 x = 'abcdefghij'
 for letter in x:
     print(letter)
+
+
+age = 18
+print(f"Vous avez {age} ans !")
+
+
+tortue = "Une tortue"
+saute = "saute sur"
+chat = "un chat"
+# il faut que s'affiche "une tortue saute sur un chat"
+
+print(f"{tortue} {saute} {chat}")
+print(tortue, saute, chat)
+
+txt = tortue + " " + saute + " " + chat
+print(txt)
+
+
+# 2 variables a et b qui contiennent une valeur (int ou str)
+# la donnée de a doit se retrouver dans b et inversement
+
+a = 'adrien'
+b = 'emile'
+
+a, b = b, a
+print (a)
+print (b)
+
+#ou
+temp = a
+a = b
+b = temp
+print (a)
+print (b)
+
+
+# stocker dans un dictionnaire les infos suivantes
+# une personne qui s'appelle Marie, qui a 27 ans et qui mange des pommes
+
+dict(key, values):
+{prenom = 'Marie',
+age = 27,
+manger = 'pommes'
+}
