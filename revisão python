@@ -1,0 +1,8 @@
+# criar uma função para uma balada em que as pessoas não podem entrar se não tiverem mais que 18 anos
+
+def laisser_entrer(user_age):
+if user_age>= 18:
+print ("vous pouvez entrer")
+else:
+print ("vous ne pouvez pas entrer")
+
