@@ -174,4 +174,3 @@ l = ['S', 'S', 'M', 'S', 'L', 'S', 'M']
 print(count_production(l))
 
 
-
