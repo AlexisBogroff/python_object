@@ -32,5 +32,13 @@ a, b = a, b
 #une personne qui s'apelle marie et qui a 27 ans et mange des pomme
 personne = { "nom" : "Marie", "age" : 27, "aliment_prefere" = "pomme"}
 
+###exo 7
+txt = 'il fait beau'
+mots = txt.split()  # Découpe la chaîne en mots
+print(mots)
 
+###exo 9
+l = [10, 18, 30]
+l.pop(0)
+l
 
