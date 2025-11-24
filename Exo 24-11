@@ -42,3 +42,8 @@ l = [10, 18, 30]
 l.pop(0)
 l
 
+###exo 10
+l = ['a1','a2', 'b1', 'a3', 'b2', 'b3']
+for i in l:
+    if i[0] == 'a':  # Vérifie si le premier caractère est 'a'
+        print(item)
