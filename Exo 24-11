@@ -19,3 +19,9 @@ tortue = "Une tortue"
 saute = "saute sur"
 chat = "un chat"
 print (f"{tortue} {saute} {chat}")
+
+###exo 5
+
+a = "adrien"
+b = "elyne"
+a, b = a, b
