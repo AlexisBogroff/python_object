@@ -60,3 +60,50 @@ ln = []
 for pos in range(len(n)) :
   ln.append(l[pos] + str(n[pos]))
 print(ln)
+## Option 3
+ln = [letter + str(number) for letter, number in zip(l,n)]
+print(ln)
+
+## exercice 9
+l = [10,18,30]
+l.remove(10)
+print(l)
+
+## exercice 10
+l = ['a1', 'a2', 'b1', 'b2', 'a3']
+for i in l:
+  if i != 'b1' and i != 'b2':
+    print(i)
+
+## exercice 11 : fonction qui renvoie une chaine de caractères à partir d'une liste qui contient des caractères
+l = ['coucou', 'je','suis', 'une', 'tortue']
+
+print(" ".join(l))
+
+## exercice 12
+nb_s = 0
+nb_m = 0
+nb_l = 0
+
+for i in l :
+  if i == 'S':
+    nb_s +=1
+  if i == 'M':
+    nb_m +=1
+  if i == 'L':
+    nb_l +=1
+
+dico = {'S' : nb_s,
+        'M' : nb_m,
+        'L' : nb_l}
+
+print(dico)
+## Option
+def count_production(l):
+    sizes = {'S': 0, 'M': 0, 'L': 0}
+    for size in sizes:
+        sizes[size] = l.count(size)
+    return sizes
+
+l = ['S', 'M', 'L', 'S', 'L', 'S']  # utiliser une liste, pas un set
+print(count_production(l))
