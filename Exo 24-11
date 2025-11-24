@@ -1,3 +1,11 @@
+#exo 1
+def videur_boite_de_nuit(age):
+  age=int(input("Quel est votre âge"))
+  if age >= 18:
+        print("Vous pouvez entrer !")
+  else:
+      print("Vous ne pouvez pas entrer !")
+#exo 2
 x = "befiyzg"
 for i in x:
     print(i)
