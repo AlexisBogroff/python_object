@@ -1,8 +1,56 @@
+EXERCÍCIO 1
 # criar uma função para uma balada em que as pessoas não podem entrar se não tiverem mais que 18 anos
 
-def laisser_entrer(user_age):
+def laisser_entrer():
 if user_age>= 18:
 print ("vous pouvez entrer")
 else:
 print ("vous ne pouvez pas entrer")
+
+laisser_entrer(18)
+
+========
+
+# EXERCICIO 2: criar uma lista em que x = abcdefg, e eu quero as letras uma embaixo da outra
+
+x = "abcdefg"
+
+output:
+"a"
+"b"
+"c"
+"d"
+"f"
+"g"
+
+x = "abcdefg"
+for letter in x:
+  print (letter)
+
+======
+
+# EXERCICIO 3: age = 18, output: "vous avez 18 ans"
+
+age = 18
+print(f"vous avez {age} ans")
+
+======
+
+# EXERCICIO 4:
+variáveis:
+
+tortue = "une tortue"
+saute = "saute sur"
+chat = "un chat"
+
+output: une tortue saute sur un chat
+
+print (tortue, saute, chat)
+
+======
+
+# EXERCICIO 5: 
+
+
+
 
