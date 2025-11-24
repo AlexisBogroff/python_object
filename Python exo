@@ -1,0 +1,5 @@
+def laisser_entrer():
+  user_age = int(input("Quel est votre âge")
+  if user_page >= 18:
+    print("Vous pouvez entrer")
+  else:
