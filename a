@@ -1,3 +1,13 @@
+def eren():
+    print ("eren")
+    
+def corentin ():
+  print ("Hello World")
+def pierre():
+    return "Hello from blablablouefubuez!"
+
+def omega():
+    print('meow')
 def celie():
   print("yolo")
   
@@ -7,6 +17,8 @@ def barbara():
 def meriem():
   print("Salut")
   
+def rawend():
+  print("salut")
 def ellyne():
     print("hello")
     
@@ -29,7 +41,7 @@ def edgar():
     print("Edgar")
     
 def rachel():
-  print("coucou")
+    print("coucou")
 
 def alexis():
     print("coucou")
